@@ -1,0 +1,16 @@
+.cursor {
+    border-radius: 100%;
+    mix-blend-mode: difference;
+    z-index: 2000 !important;
+    top: -2.1rem;
+    left:-2.1rem;
+  }
+  
+  .cursorFollower {
+    border-radius: 100%;
+    left: -0.5rem;
+    top: -0.5rem;
+    background: rgba(165, 165, 165, 0.2);
+    will-change: transform;
+    z-index: 2000 !important;
+  }

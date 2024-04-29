@@ -2,32 +2,53 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+.gredient_left{
+    background-image: linear-gradient(to right, #0f0f0f, #0f0f0f, #0f0f0f, #0f0f0f, #0f0f0f00);
+}
+.gredient_lefttt{
+    background-image: linear-gradient(to right, #0f0f0f, #0f0f0f, #0f0f0f, #0f0f0f, #0f0f0f);
+}
+.gredient_right{
+    background-image: linear-gradient(to left, #0f0f0f, #0f0f0f, #0f0f0f, #0f0f0f, #0f0f0f00);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.layer_two{
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.15;
+    }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.layer_one{
+    animation-name: fadeOut;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeOut {
+    0% {
+        opacity: 0.15;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.baxa{
+    box-shadow: inset 0px 0px 29px 44px rgba(15,15,15,1);
+}
+
+.utopia{
+    font-family: "Megrim", system-ui;
+}
+
+.blend{
+    background-image: linear-gradient(to bottom, #ffffff, #b9b9b9, #777777, #3b3b3b, #000000);
 }
