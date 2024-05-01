@@ -139,10 +139,10 @@ export default function Skills() {
                     <p className='  text-[15vw] font-[fahkwang] text-secondry font-extrabold ' >MY SKILLS</p>
                 </div>
 
-                <div className="  uppercase font-semibold  gredient_left text-white font-[antonio] pl-20 text-[8vw] absolute  lg:flex md:flex hidden flex-col  items-start justify-center  top-0 left-0 w-[40%] h-full z-[4] ">
-                    <p style={{ top: 200, transform: 'scaleY(2)' }} className=' left-0  relative text1 ' >Code,</p>
-                    <p style={{ top: 200, transform: 'scaleY(2)' }} className=' left-0  relative text2  ' >JAVASCRIPT,</p>
-                    <p style={{ top: 200, transform: 'scaleY(2)' }} className=' left-0  relative text3 ' >JOY,</p>
+                <div className="  uppercase font-semibold  gredient_left  text-white font-[antonio] pl-20 text-[8vw] absolute  lg:flex md:flex hidden flex-col  items-start justify-center  top-0 left-0 w-[40%] h-full z-[4] ">
+                    <p style={{ top: 200, transform: 'scaleY(2)' }} className=' left-0 mix-blend-difference relative text1 ' >Code,</p>
+                    <p style={{ top: 200, transform: 'scaleY(2)' }} className=' left-0 mix-blend-difference relative text2  ' >JAVASCRIPT,</p>
+                    <p style={{ top: 200, transform: 'scaleY(2)' }} className=' left-0 mix-blend-difference relative text3 ' >JOY,</p>
                 </div>
 
                 <div className=" relative ml-[40vw]  ">
@@ -156,10 +156,10 @@ export default function Skills() {
                                                 values.data.map((value: any, index: number) => {
                                                     return (
                                                         <>
-                                                            <div key={index} className="   flex items-center justify-center w-[300px] h-[230px] border  border-[#363636] bg-secondry/20 rounded-xl ">
-                                                                <div className=" flex justify-center flex-col items-center ">
-                                                                    <div className="  relative w-[70px] h-[70px] "> <Image fill src={value.icon} alt='' /> </div>
-                                                                    <p className=' font-[fahkwang] text-[1.5vw] mt-3 text-white ' >{value.name}</p>
+                                                            <div key={index} className="   flex items-center justify-center w-[300px] h-[230px] border  border-[#363636] bg-secondry rounded-xl ">
+                                                                <div className="  flex justify-center flex-col items-center ">
+                                                                    <div className="  relative w-[70px] h-[70px]  "> <Image fill src={value.icon} alt='' /> </div>
+                                                                    <p className=' font-[fahkwang] mix-blend-difference text-[1.5vw] mt-3 text-white ' >{value.name}</p>
                                                                 </div>
                                                             </div>
                                                         </>

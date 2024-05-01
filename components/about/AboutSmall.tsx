@@ -50,7 +50,7 @@ export default function AboutSmall() {
 
         </div>
         <div className=" absolute top-0 flex items-center justify-start right-0 w-[50%] h-full  gredient_right">
-          <p ref={textRefRight} className=' relative text-[50px] font-[fahkwang] text-white font-extrabold ' >Hey there! I am a Just a Developer and Designer.</p>
+          <p ref={textRefRight} className=' mix-blend-difference relative text-[50px] font-[fahkwang] text-white font-extrabold ' >Hey there! I am a Just a Developer and Designer.</p>
         </div>
       </div>
     </>

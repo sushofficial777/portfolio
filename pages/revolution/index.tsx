@@ -77,9 +77,6 @@ export default function Index() {
     useEffect(() => {
         const canvas = canvasRef.current;
         const pageRefElement = pageRef.current;
-        const mainTitleRefElement = mainTitleRef.current;
-        const mainTextRefElement = mainTextRef.current;
-        const progressRefElement = progressRef.current;
         const ctx = canvas.getContext('2d');
         const image = new Image();
 
@@ -234,8 +231,8 @@ export default function Index() {
                 </div>
             </div>
 
-            <div style={{ opacity: currentProgress === '100%' ? 0 : 1 }} className=" fixed duration-200 left-[50%] translate-x-[-50%] top-[85%] w-[200px] h-[2px] rounded-full bg-slate-200 ">
-                <div style={{ width: `${currentProgress}`}} ref={progressRef} className="  h-full bg-red-300 "></div>
+            <div style={{ opacity: currentProgress === '100%' ? 0 : 1 }} className=" fixed duration-200 left-[6%]  top-[50%] translate-y-[-50%] w-[2px] h-[70vh] rounded-full bg-slate-200 ">
+                <div style={{ height: `${currentProgress}`}} ref={progressRef} className="  h-full bg-red-300 "></div>
             </div>
 
 

@@ -4,13 +4,13 @@
 
 
 .gredient_left{
-    background-image: linear-gradient(to right, #0f0f0f, #0f0f0f, #0f0f0f, #0f0f0f, #0f0f0f00);
+    background-image: linear-gradient(to right, #ffffff, #ffffff, hsl(0, 0%, 100%), #ffffff, #ffffff00);
 }
 .gredient_lefttt{
-    background-image: linear-gradient(to right, #0f0f0f, #0f0f0f, #0f0f0f, #0f0f0f, #0f0f0f);
+    background-image: linear-gradient(to right, #ffffff, #ffffff, #ffffff, #ffffff00, #ffffff00);
 }
 .gredient_right{
-    background-image: linear-gradient(to left, #0f0f0f, #0f0f0f, #0f0f0f, #0f0f0f, #0f0f0f00);
+    background-image: linear-gradient(to left, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff00);
 }
 
 .layer_two{
@@ -52,3 +52,4 @@
 .blend{
     background-image: linear-gradient(to bottom, #ffffff, #b9b9b9, #777777, #3b3b3b, #000000);
 }
+

@@ -397,7 +397,7 @@ export default function Index() {
                 scrub: true,
 
                 pin: true,
-                markers: true,
+                // markers: true,
                 onUpdate: (self) => {
                     const index = Math.round(self.progress * (imageCount - 1));
                     const image = imagess[index];

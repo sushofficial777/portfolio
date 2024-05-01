@@ -117,29 +117,29 @@ export default function MyProjects() {
             <div className=" w-full md:h-[20vh]  h-0 lg:h-[30vh] "></div>
 
             <div id='horizontal_projects' className=' w-full md:h-screen h-[90vh] pt-[180px] md:pt-20 lg:pt-20  lg:h-screen md:py-20 py-0 lg:py-20 bg-primary overflow-hidden ' >
-                <div className="   uppercase font-extrabold  gredient_lefttt text-white font-[antonio] pl-10 leading-[12vh] text-[5vw] absolute lg:flex flex-col md:flex hidden   items-start justify-center  top-0 left-0 w-[8%] h-full z-[4] ">
-                    <p style={{ left: -200, opacity: 0, transform: 'scale(5)' }} className=' left-0  relative projects_text1 ' >
+                <div className="    uppercase font-extrabold  gredient_lefttt text-white font-[antonio] pl-10 leading-[12vh] text-[5vw] absolute lg:flex flex-col md:flex hidden   items-start justify-center  top-0 left-0 w-[8%] h-full z-[4] ">
+                    <p style={{ left: -200, opacity: 0, transform: 'scale(5)' }} className=' left-0 mix-blend-difference  relative projects_text1 ' >
                         p
                     </p>
-                    <p style={{ left: -200, opacity: 0, transform: 'scale(5)' }} className=' left-0  relative projects_text2 ' >
+                    <p style={{ left: -200, opacity: 0, transform: 'scale(5)' }} className=' left-0 mix-blend-difference  relative projects_text2 ' >
                         r
                     </p>
-                    <p style={{ left: -200, opacity: 0, transform: 'scale(5)' }} className=' left-0  relative projects_text3 ' >
+                    <p style={{ left: -200, opacity: 0, transform: 'scale(5)' }} className=' left-0 mix-blend-difference  relative projects_text3 ' >
                         o
                     </p>
-                    <p style={{ left: -200, opacity: 0, transform: 'scale(5)' }} className=' left-0  relative projects_text4 ' >
+                    <p style={{ left: -200, opacity: 0, transform: 'scale(5)' }} className=' left-0 mix-blend-difference  relative projects_text4 ' >
                         j
                     </p>
-                    <p style={{ left: -200, opacity: 0, transform: 'scale(5)' }} className=' left-0  relative projects_text5 ' >
+                    <p style={{ left: -200, opacity: 0, transform: 'scale(5)' }} className=' left-0 mix-blend-difference  relative projects_text5 ' >
                         e
                     </p>
-                    <p style={{ left: -200, opacity: 0, transform: 'scale(5)' }} className=' left-0  relative projects_text6 ' >
+                    <p style={{ left: -200, opacity: 0, transform: 'scale(5)' }} className=' left-0  mix-blend-difference relative projects_text6 ' >
                         c
                     </p>
-                    <p style={{ left: -200, opacity: 0, transform: 'scale(5)' }} className=' left-0  relative projects_text7 ' >
+                    <p style={{ left: -200, opacity: 0, transform: 'scale(5)' }} className=' left-0  mix-blend-difference relative projects_text7 ' >
                         t
                     </p>
-                    <p style={{ left: -200, opacity: 0, transform: 'scale(5)' }} className=' left-0  relative projects_text8 ' >
+                    <p style={{ left: -200, opacity: 0, transform: 'scale(5)' }} className=' left-0 mix-blend-difference  relative projects_text8 ' >
                         s
                     </p>
                 </div>
